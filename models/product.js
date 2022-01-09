@@ -19,7 +19,7 @@ const productSchema = new mongoose.Schema({
         type:Number,
         default:4.5
     },
-    createdAt:{
+    createAt:{
         type:Date,
         default: Date.now(),
     },
